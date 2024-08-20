@@ -1,0 +1,21 @@
+=========== frontend ============
+01- npm create vite@latest ./
+
+02- install tailwind
+
+03- npm i react-router-dom react-icon react-spinners react-toastify swiper
+
+04- Vite plugin to transform SVGs into React components. Uses svgr under the hood.
+	- npm install --save-dev vite-plugin-svgr 
+	- go to vite-config and import svgr from "vite-plugin-svgr"
+
+04- npm i vite-tsconfig-paths // path configuration like  @/component.tsx
+
+	- go to vite-config and import tsconfigPaths from "vite-tsconfig-paths"
+	- go to tsconfig and :
+		 /* Absolute path imports */
+   			 "baseUrl": ".",
+   			 /* Paths */
+    				"paths": {
+    				  "@assets/*": ["src/assets/*"],
+   		
