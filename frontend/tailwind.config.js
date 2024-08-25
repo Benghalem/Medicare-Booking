@@ -6,8 +6,9 @@ export default {
       primaryColore: "#0067FF",
       yellowColore: "#FEB60D",
       purpleColore: "#9771FF",
-      irisBlueColore: "#181A1E",
+      irisBlueColore: "aqua",
       textColore: "#4E545F",
+      headingColor: "#181A1E",
     },
     boxShadow: {
       panelShadow: "rgba(17, 12, 46, 0.15) 0px 48px 100px 0px",

@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  section {
+    @apply py-[75px];
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-h-full  w-[1440px]  px-10 mx-auto;
+  }
+
+  .btn {
+    @apply bg-primaryColore py-[14px]  px-[35px] text-[#fff]  rounded-full font-[500] mt-[38px];
+  }
+
+  .heading {
+    @apply text-[44px] font-[700] leading-[54px] text-headingColor;
+  }
+
+  .text__para {
+    @apply text-textColore font-[400] text-[18px] leading-[30px];
+  }
+
+  .header {
+    @apply bg-[url('./assets/images/mask.png')] bg-no-repeat bg-cover w-full h-[100px] leading-[100px];
+  }
+  .hero__section {
+    @apply bg-[url('./assets/images/hero-bg.png')] bg-no-repeat bg-cover bg-center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    @apply w-full;
+  }
+  section {
+    @apply py-[35px];
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    @apply text-[26px] leading-[36px];
+  }
+
+  .text__para {
+    @apply text-[16px] leading-7 mt-3;
+  }
+}
