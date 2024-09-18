@@ -45,8 +45,7 @@ const DoctorCard: React.FC<{ doctor: TDoctors }> = ({ doctor }) => {
             {avgRating}
           </span>
           <span className="text-[14px] leading-3 lg:text-[16px] lg:leading-7 font-[400] text-textColore">
-            ({totalRating})
-            <span className="text-[14px] lg:text-[16px]">Ratings</span>
+            ({totalRating})<span className="text-[14px] lg:text-[16px]"></span>
           </span>
         </div>
       </div>
